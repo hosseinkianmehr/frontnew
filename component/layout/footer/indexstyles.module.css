@@ -1,0 +1,38 @@
+/*.base{
+ justify-content: center;
+ align-items: center;
+ background:  url('../../../public/wind-turbine-farm-sunset.jpg') no-repeat;
+ height: "5000px" ;
+ background-position: 50% 100%;
+  background-size: cover;
+}/*/
+
+.base{
+  justify-content: center;
+  align-items: center;
+  
+  height: "500px" ;
+  background-color: seagreen;
+ 
+ }
+.Row {
+  
+  align-items: center;
+  
+ }
+ 
+ .div {
+  width: 300;
+  height: 300;
+ }
+ 
+ .icon {
+ font-size: 50px;
+margin: 10px; 
+}
+ 
+ .Link {
+  font-size: 20px;
+  color: black;
+ }
+ 
