@@ -1,4 +1,6 @@
+
 import '../styles/globals.css'
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -9,6 +11,7 @@ import Swiper from 'swiper/bundle';
   // import styles bundle
   import 'swiper/css/bundle';
 import Headerpage from '../component/layout/Header/Header';
+import Footerpage from '../component/layout/footer';
 
 
 
@@ -22,6 +25,7 @@ function MyApp({ Component, pageProps }) {
     <Headerpage/>
     
     <Component {...pageProps} />
+    <Footerpage/>
     </>
     )
 }

@@ -4,9 +4,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 function Headerpage() {
+  const colorb = '#81B214'
   const router = useRouter();
   return (
-    <Navbar bg="dark" variant="dark" sticky="top" expand="sm" collapseOnSelect>
+    <Navbar  variant="dark" sticky="top" expand="sm" collapseOnSelect style={{backgroundColor:'#206A5D'}}> 
       <Container>
         <Navbar.Brand>hello</Navbar.Brand>
 

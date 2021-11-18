@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./indexstyles.module.css";
 import { TwitterOutlined ,YoutubeOutlined ,GithubOutlined} from "@ant-design/icons";
 const { Text, Link } = Typography;
-function Footer() {
+function Footerpage() {
   return (
     <Row  className={styles.base}>
       <div
@@ -39,4 +39,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Footerpage;

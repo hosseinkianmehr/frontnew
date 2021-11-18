@@ -1,0 +1,23 @@
+.bace {
+  
+  height: 40vh;
+  background: url('../../../public/MahTaab-Siahpoush-12-scaled22.jpg') no-repeat;
+  
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  
+}
+.text{
+  width: 350px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.Title{
+  text-emphasis-color: red;
+ 
+margin-top: 10px;
+}

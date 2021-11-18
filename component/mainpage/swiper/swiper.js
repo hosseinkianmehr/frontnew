@@ -27,9 +27,9 @@ export default function Swipers() {
         className={styles.swiper}
         
       >
-        <SwiperSlide className={styles.SwiperSlide}><div >hello</div></SwiperSlide>
-        <SwiperSlide>Slide 2 </SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide className={styles.SwiperSlide}><div className={styles.img}></div></SwiperSlide>
+        <SwiperSlide className={styles.SwiperSlide}><div className={styles.img2}></div> </SwiperSlide>
+        <SwiperSlide className={styles.SwiperSlide}><div className={styles.img3}></div></SwiperSlide>
         
       </Swiper>
     </>
