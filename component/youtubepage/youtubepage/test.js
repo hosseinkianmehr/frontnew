@@ -10,10 +10,13 @@ import {
   Row,
   Typography,
 } from "antd";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 
 function TestYou() {
+    const [count, setCount] = useState(0);
+
+
    const showModal = () => {
         this.setState({
           visible: true,

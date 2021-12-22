@@ -11,8 +11,7 @@ const PostDetail = ({post}) => {
   
   return (
     <div>
-      {post.minetitel} salam
-      <Blogpage/>
+      <Blogpage post={post}/>
     </div>
   );
 };

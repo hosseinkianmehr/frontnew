@@ -1,6 +1,7 @@
 
 import '../styles/globals.css'
-
+//import '../styles/mine.css'
+//import '../public/font/style.css'
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
